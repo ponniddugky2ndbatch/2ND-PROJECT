@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 10px;
+  background: white;
+}
+
+h3 div li {
+  font-size: 30px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 10px;
+  font-size: 10px;
+}
+
+nav ul li {
+  margin: 0 20px;
+  font-size: 10px;
+}
+
+.logo-text {
+  font-size: 3em;
+  font-weight: 700;
+  color: #f05136;
+}
+
+.nav-link {
+  font-size: 1.8em;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+nav ul li img {
+  width: 50px;
+  height: 50px;
+}
+
+.nav-link:hover {
+  color: #f05136;
+}
+
+#bio {
+  display: flex;
+  align-items: center;
+}
+
+#bio article * {
+  margin: 20px;
+  font-size: 2em;
+}
+body imag {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 100px;
+}
+
+#bio img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 100px;
+}
+
+#portfolio img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 100px;
+}
+
+#portfolio h3 {
+  font-size: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+header div p {
+  font-size: 2.5em;
+  font-weight: 200;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 4em;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 1.8em;
+}
+
+.link-button {
+  text-decoration: none;
+  text-align: center;
+  background: white;
+  cursor: pointer;
+  font-weight: 200;
+  height: 0.2px;
+  letter-spacing: 0.5px;
+  color: black;
+  font-size: 1.8em;
+  padding: 30px;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  border-radius: 15px;
+}
+
+.link-button:hover {
+  color: white;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+hr {
+  width: 400px;
+}
+
+#portfolio {
+  background-color: yellow;
+  color: black;
+  height: 700px;
+}
+
+#portfolio,
+#company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  list-style-type: none;
+}
+
+#portfolio div {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px;
+  width: 100%;
+}
+
+#portfolio div article {
+  background: yellow;
+  color: black;
+  height: 60px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 15em;
+}
+
+#portfolio div article * {
+  padding: 0 3px;
+}
+
+#portfolio p {
+  margin: 10px;
+}
+
+#company-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#company-container div {
+  display: flex;
+  flex-direction: column;
+}
+
+#comapny ul {
+  list-style: none;
+}
+
+#company ul li {
+  margin: 10px 0;
+  list-style: none;
+}
+
+progress[value] {
+  height: 10px;
+  width: 350px;
+  -webkit-appearance: none;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0.25 inset);
+}
+
+::-webkit-progress-value {
+  background-color: #f05136;
+}
+
+#company ul {
+  font-size: 1.5em;
+}
+
+.input {
+  line-height: 2em;
+  width: 350px;
+  border-radius: 3px;
+  border-color: black;
+  margin: 20px 0;
+}
+
+.break {
+  display: block;
+}
+#Snapcodes {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+h6 {
+  display: flex;
+  flex-direction: column;
+  background: black;
+  color: white;
+  height: 20px;
+  font-size: 15px;
+}
+
+/* DRY-DON'T REPEAT YOURSELF */
+
+/*LOGO-TEXT
+nav-link text
+smaller header text
+target text in header(h1)
+bio-heading(h2)
+portfolio,skills,contact(h3)
+regular text*/
